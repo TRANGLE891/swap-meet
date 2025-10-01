@@ -4,9 +4,8 @@ from uuid import uuid1
 
 class Electronics(Item):
     def __init__(self, id=uuid1().int, type="Unknown", condition=0.0):
-        self.id = id
+        super().__init__(id, condition)
         self.type = type
-        self.condition = condition
         pass
 
     def get_category(self):

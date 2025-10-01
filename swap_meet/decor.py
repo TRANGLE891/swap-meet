@@ -4,10 +4,9 @@ from uuid import uuid1
 
 class Decor(Item):
     def __init__(self, id=uuid1().int, width=0, length=0, condition=0.0):
-        self.id = id
+        super().__init__(id, condition)
         self.width = width
         self.length = length
-        self.condition = condition
         pass
 
     def get_category(self):

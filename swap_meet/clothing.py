@@ -4,10 +4,8 @@ from uuid import uuid1
 
 class Clothing(Item):
     def __init__(self, id=uuid1().int, fabric="Unknown", condition=0.0):
-        self.id = id
+        super().__init__(id, condition)
         self.fabric = fabric
-        self.id = id
-        self.condition = condition
         pass
 
     def get_category(self):
