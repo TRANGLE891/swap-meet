@@ -140,6 +140,12 @@ Our new modules should be defined as follows:
   - Has a function `get_category` that returns `"Clothing"`
   - Has a stringify method that returns `"An object of type Clothing with id <id value>. It is made from <fabric value> fabric."`
     - For example, if we had a `Clothing` instance with an `id` of `123435` and a `fabric` attribute that holds `"Wool"`, its stringify method should return `"An object of type Clothing with id 12345. It is made from Wool fabric."`
+
+
+
+
+
+
 - `Decor`
   - Has an attribute `id` that is by default a unique integer
   - Holds 2 integer attributes `width` and `length`
@@ -148,6 +154,11 @@ Our new modules should be defined as follows:
   - Has a function `get_category` that returns `"Decor"`
   - Has a stringify method that returns `"An object of type Decor with id <id value>. It takes up a <width value> by <length value> sized space."`
     - For example, if we had a `Decor` instance with an `id` of `123435`, `width` of `3`, and `length` of `7`, its stringify method should return `"An object of type Decor with id 12345. It takes up a 3 by 7 sized space."`
+
+
+
+
+
 - `Electronics`
   - Has an attribute `id` that is by default a unique integer
   - Has an attribute `type` that is by default the string "Unknown"
@@ -156,6 +167,10 @@ Our new modules should be defined as follows:
   - Has an function `get_category` that returns `"Electronics"`
   - Has a stringify method that returns `"An object of type Electronics with id <id value>. This is a <type value> device."`
     - For example, if we had an `Electronics` instance with an `id` of `123435` and `type` attribute of `"Mobile Phone"`, its stringify method should return `"An object of type Electronics with id 12345. This is a Mobile Phone device."`
+
+
+
+
 
 - All three new classes and the `Item` class have an attribute called `condition`, which can be optionally provided in the initializer. The default value should be `0`
 

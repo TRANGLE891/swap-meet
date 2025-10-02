@@ -135,8 +135,3 @@ def test_swap_items_from_their_empty_returns_false():
     assert item_b in fatimah.inventory
     assert nobodys_item not in fatimah.inventory
     assert nobodys_item not in jolie.inventory
-
-    #raise Exception("Complete this test according to comments below.")
-    # *********************************************************************
-    # ****** Complete Assert Portion of this test **********
-    # *********************************************************************
