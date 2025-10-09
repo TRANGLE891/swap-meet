@@ -23,9 +23,6 @@ Understand someone's code.
 Let's have fun and try to enjoy the process.
 
 ## Signatures
-<<<<<<< HEAD
-Tatiana Didenko _______________ Date: 09/29/2025
-=======
 Tatiana Didenko 
-Alice(Trang Le) Date: 09/29/2025
->>>>>>> solution_Alice
+Alice(Trang Le) 
+Date: 09/29/2025
